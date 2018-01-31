@@ -1,0 +1,406 @@
+
+/*nav bar*/
+#navbar .navbar-brand {
+	font-style: italic;
+}
+
+#navbar {
+	background: #757575;
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+	z-index: 10;
+}
+
+/*slider*/
+#carouselExampleIndicators {
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+#sliderBG {
+	padding: 40px 10%;
+	background: #d9d9d9;
+}
+
+
+.dark .carousel-control-next-icon {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png);
+}
+
+.dark .carousel-control-prev-icon {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-512.png);
+	transform: scaleX(-1);
+}
+
+.carousel-indicators li {
+    background-color: #EEEEEE;    
+}
+.carousel-indicators .active {
+    background-color: #03A9F4;
+}
+/*self intro*/
+
+.selfIntroAbout #selfie {
+	margin-top: 70px;
+}
+
+#selfie {
+	padding: 70px;
+}
+#selfIntro {
+	padding: 0 10%;
+}
+
+#selfIntro .jumbotron {
+	background: white;
+}
+
+.selfIntroAbout {
+	margin: 40px 0;
+}
+
+
+/*project card*/
+
+
+.projectCategory {
+	position: absolute; 
+	margin-left: 9%; 
+	margin-top: 30px; 
+	color: #9E9E9E;
+}
+
+#projectCard {
+	padding: 100px 10% 50px 10%;
+	background: #F5F5F5;
+	border-top: 2px solid white;
+}
+
+#projectCard .card-footer {
+	background: white;
+}
+
+#projectCard .card {
+	margin-bottom: 50px;
+}
+
+#projectCard a:hover{
+	color: #007bff;
+}
+
+a.more:hover{
+	color: #007bff;
+}
+
+
+/*footer*/
+footer {
+	padding: 0 100px;
+	text-align: center;
+	background: #757575;
+}
+
+footer .col-sm-4 {
+	padding: 25px 0;
+}
+
+footer p {
+	color: white;
+}
+
+footer a {
+	display: block;
+	font-size: 12px;
+	color: #E0E0E0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer .email {
+	font-size: 12px;
+}
+
+/*resume*/
+
+#resume {
+	padding: 50px 0;
+}
+
+/*project*/
+
+.designNav {
+	height: 60px;
+	padding-top: 12px;
+}
+
+.puzzle {
+	background-image: url("../image/life/27.png");
+	background-position: center;
+	background-size: 80%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+.fuzhou {
+background: #5C258D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.fuzhougrey {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+.life {
+background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.journey {
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+text-shadow: 1px 1px 2px #BDBDBD;
+}
+
+#journeyIntro .jumbotron {
+	background-image: url("http://static1.businessinsider.com/image/530f957b69beddf014b04e20-1200/santorini-sunset.jpg");
+	background-position: center;
+	background-size: 100%;
+}
+
+#splitIntro .jumbotron {
+	background-image: url("../image/split/2.jpg");
+	background-position: center;
+	background-size: 100%;
+}
+
+#viewIntro .jumbotron {
+	background-image: url("../image/architecture/view/1.png");
+	background-position: center;
+	background-size: 100%;
+}
+
+#musicIntro .jumbotron {
+	background-image: url("../image/architecture/river/2.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+}
+
+#greenIntro .jumbotron {
+	background-image: url("../image/architecture/greenhouse/3.jpg");
+	background-position: center;
+	background-size: 100%;
+}
+
+#chapelIntro .jumbotron {
+	background-image: url("../image/architecture/chapel/1.jpg");
+	background-position: top;
+	background-size: 100%;
+	color: white;
+}
+
+#observatoryIntro .jumbotron {
+	background-image: url("../image/architecture/observatory/1.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: black;
+	text-shadow: 2px 2px 4px #BDBDBD;
+}
+
+#buildingIntro .jumbotron {
+	background-image: url("../image/architecture/building/6.jpg");
+	background-position: center;
+	background-size: 50%;
+	color: white;
+}
+
+#environmentIntro .jumbotron {
+	background-image: url("../image/architecture/environment/3.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+}
+
+#opartmentsIntro .jumbotron {
+	background-image: url("../image/architecture/opartments/5.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: black;
+}
+
+#paintingIntro .jumbotron {
+	background-image: url("../image/art/painting/3.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+}
+
+#drawingIntro .jumbotron {
+	background-image: url("../image/art/drawing/7.jpg");
+	background-position: bottom;
+	background-size: 100%;
+	color: white;
+}
+
+#photoIntro .jumbotron {
+	background-image: url("../image/art/photography/4.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: grey;
+}
+
+#flyIntro .jumbotron {
+	background-image: url("../image/art/fly/1.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	text-shadow: 2px 2px 4px #BDBDBD;
+}
+
+#fuzhouIntro .jumbotron {
+	background-image: url("../image/fuzhou/1.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: grey;
+	text-shadow: 2px 2px 4px #BDBDBD;
+}
+
+#lifeIntro .jumbotron {
+	background-image: url("../image/life/44.jpg");
+	background-position: center;
+	background-size: 100%;
+}
+
+#splitIntro .jumbotron h1,
+#splitIntro .jumbotron p{
+	color: white;
+}
+
+#journeyIntro .jumbotron h1,
+#journeyIntro .jumbotron p{
+	color: white;
+}
+
+#journeySlider {
+	background: #d9d9d9;
+}
+
+
+
+.content {
+	padding: 50px 10% 100px 10%;
+}
+
+.content .intro {
+	padding-bottom: 50px;
+}
+
+.content h4 {
+	padding: 30px 5% 20px 5%;
+}
+
+.content .goals li {
+	margin: 0 5% 0 5%;
+}
+
+.content p,
+.content a,
+.content h3 {
+	padding: 0 5% 0 5%;
+}
+
+.content ul {
+	padding: 0 8% 0 8%;
+}
+
+.content a.link {
+	display: block;
+	color: #0056b3;
+}
+
+.content a:hover {
+	color: #007bff;
+}
+
+
+
+.content .ui {
+	padding-bottom: 20px;
+}
+
+.content img {
+	display: block;
+	margin: auto;
+}
+
+.content .card img {
+	margin-bottom: 0;
+}
+
+.content img {
+	margin-bottom: 20px;
+}
+
+.content .ui {
+	padding-top: 15px;
+}
+
+.content .ui img {
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+.content .gif {
+	max-width: 350px;
+}
+
+.content .gifLarge {
+	max-width: 1150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.pageIntroBG {
+	margin-bottom: 0;
+}
+
+.breadcrumb {
+	background-color: white;
+}
+/*contact*/
+#contact {
+	color: #757575;
+	padding: 255px 0;
+	text-align: center;
+}
+
+/*view*/
+.skill {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.content .slide {
+	padding-top: 50px;
+}
+
+small {
+	color: grey;
+}
