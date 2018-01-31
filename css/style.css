@@ -179,6 +179,18 @@ padding-bottom: 100px;
 text-shadow: 1px 1px 2px #BDBDBD;
 }
 
+
+
+.uber {
+background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+text-shadow: 1px 1px 2px #BDBDBD;
+}
+
 #journeyIntro .jumbotron {
 	background-image: url("http://static1.businessinsider.com/image/530f957b69beddf014b04e20-1200/santorini-sunset.jpg");
 	background-position: center;
@@ -190,6 +202,14 @@ text-shadow: 1px 1px 2px #BDBDBD;
 	background-position: center;
 	background-size: 100%;
 }
+
+#uberIntro .jumbotron {
+	background-image: url("../image/uber/1.png");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+}
+
 
 #viewIntro .jumbotron {
 	background-image: url("../image/architecture/view/1.png");
