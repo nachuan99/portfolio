@@ -159,6 +159,12 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
+.fuzhouwhite {
+padding-top: 100px;
+padding-bottom: 0px;
+background: white;
+}
+
 
 .life {
 background: #134E5E;  /* fallback for old browsers */
