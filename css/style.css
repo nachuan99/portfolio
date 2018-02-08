@@ -7,17 +7,17 @@ a:hover {
 }
 
 #navbar {
-	background: #757575;
-/*	box-shadow: 4px 4px 8px rgba(0,0,0,0.2);*/
 	z-index: 10;
+	position: fixed; 
+	float: right; 
+	width: 100%;
 }
 
-#fix {
-	height: 250px;
-	background-image: url("../image/about/2.png");
-	background-attachment: fixed;
-	background-size: 100%;
-}
+/*#navbar a {
+	text-shadow: grey 1px 1px 3px;
+	color: white;
+}*/
+
 
 .brightcolor {
 	background-color: #74b9ff;
@@ -62,15 +62,23 @@ a:hover {
 }
 #selfIntro {
 	padding: 0 10%;
+	position: fixed;
+	z-index: -1;
+}
+
+#selfIntroAbout {
+	padding: 0 10%;
+
+}
+
+#selfIntroAbout .jumbotron {
+	background-color: white;
 }
 
 #selfIntro .jumbotron {
 	background: white;
 }
 
-.selfIntroAbout {
-	margin: 40px 0;
-}
 
 
 /*project card*/
