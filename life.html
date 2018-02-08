@@ -9,13 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body>
 
 
 <!-- nav bar -->
 
-<nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+<nav class="navbar navbar-expand-md navbar-dark" id="navbarp">
   <!-- Brand -->
 
   <!-- Toggler/collapsibe Button -->
@@ -68,16 +69,39 @@
 
 <div class="content">
 
-    <p style="color: #9E9E9E">A Personal Project | Tools: Illustrator and Proto.io</p>
+    <p style="color: #9E9E9E">A Personal Project | Tools: Sketch, Illustrator, Proto.io</p>
     
     <p class="intro">
-      As a food lover, I sincerely agree “there is no sincerer love than the love of food.” I think besides loving it, it is also important to know how to eat wisely. There are a variety of apps designed for users to keep track of the food. While they provide tables, numbers, and percentages as nutrition feedback, they are not easily understandable. And without further explanation and information of those data, it is difficult for users to relate them to the influence they have on our body and figure out what exactly we should do to improve health.
+      As a food lover, I sincerely agree “there is no sincerer love than the love of food.” I think besides loving it, <strong>it is also important to know how to eat wisely.</strong> There are a variety of apps designed for users to keep track of the food. While they provide tables, numbers, and percentages as nutrition feedback, they are not easily understandable. And without further explanation and information of those data, it is difficult for users to relate them to the influence they have on our body and figure out what exactly we should do to improve health.
     </p>
     <hr>
 
+    <div id="highlight">
+    <h4>Content</h4>
+    <ul>
+      <li><i class="fas fa-star" style="color: #74b9ff"></i><a href="life.html#ideation">Ideation</a></li>
+      <ul style="padding: 0 0 0 0; margin-left: 30px; color: grey"> 
+            <li>Brainstorm with a persona</li>
+          </ul>
+      <li><i class="fas fa-star" style="color: #74b9ff"></i><a href="life.html#research">Research</a></li>
+      <ul style="padding: 0 0 0 0; margin-left: 30px; color: grey"> 
+            <li>Products for recording meals</li>
+            <li>Products for health advice</li>
+          </ul>
+      <li><a href="life.html#prototype">Prototype</a></li>
+      <li><i class="fas fa-star" style="color: #74b9ff"></i><a href="life.html#ui">User Interface</a></li>
+      <ul style="padding: 0 0 0 0; margin-left: 30px; color: grey"> 
+            <li>Sign up and select your health goal</li>
+            <li>Record your daily nutrition intake</li>
+            <li>Analyze and get customized feedback</li>
+          </ul>
+      <li><a href="life.html#insight">Insight</a></li>
+    </ul>
+    </div>
+
 </div>
 
-<div class="jumbotron jumbotron-fluid life">
+<div class="jumbotron jumbotron-fluid life" id="ideation">
   <div class="container">
     <p class="lead">Design Challenge</p>
     <h1 class="display-5">How might we help people eat wisely?</h1>
@@ -107,7 +131,7 @@
 <div class="jumbotron jumbotron-fluid fuzhougrey">
   <div class="container">
     <p class="lead">Ideation</p>
-    <h1 class="display-5">Brainstorming with a persona.</h1>
+    <h1 class="display-5">Brainstorm with a persona.</h1>
   </div>
 </div>
 
@@ -135,7 +159,7 @@
 
 
 
-<div class="jumbotron jumbotron-fluid fuzhougrey">
+<div class="jumbotron jumbotron-fluid fuzhougrey" id="research">
   <div class="container">
     <p class="lead">Research</p>
     <h1 class="display-5">Understand existing apps.</h1>
@@ -146,11 +170,11 @@
 <div class="content">
 
     <h4>After researching existing nutrition apps on the market, I categorize them into two types: recording and consulting.</h4>
-    <p>For the recording type, the app lets users record the food they eat and give back data about calories, carbs, protein, and fat. While only knowing these numbers without further explanations, I as a user wish to know more about what do they mean in terms of my health conditions and what can I do to improve.</p>
+    <p>For the recording type, the app lets users record the food they eat and give back data about calories, carbs, protein, and fat. While only knowing these numbers without further explanations, <strong>I as a user wish to know more about what do they mean in terms of my health conditions and what can I do to improve.</strong></p>
     <div class="container">
       <img class="img-fluid" src="image/life/25.png">
     </div>
-    <p>For the consulting types, the user interface starts with the health issues you want to improve, and then list the food recommendation lists. It acts as a health guide Wikipedia, while it is not customized to each user.</p>
+    <p>For the consulting types, the user interface starts with the health issues you want to improve, and then list the food recommendation lists. It acts as a health guide Wikipedia, <strong>while it is not customized to each user.</strong></p>
     <div class="container">
       <img class="img-fluid" src="image/life/26.png">
     </div>
@@ -162,7 +186,7 @@
 </div>
 
 
-<img class="img-fluid" src="image/life/38.png">
+<img class="img-fluid" src="image/life/38.png" id="prototype">
 
 
 <div class="content">
@@ -186,7 +210,7 @@
 
     <h4>User Flow</h4>
     <p>
-      When signing up, users choose specific health topics they are interested in. After they input daily meals, it summarizes nutrition intake and provides customized health advice based on users’ health goal.
+      When signing up, users choose specific health topics they are interested in. After they input daily meals, it summarizes nutrition intake and <strong>provides customized health advice based on users’ health goal.</strong>
     </p>
     <div class="container">
       <img src="image/life/21.png" class="img-fluid" alt="Responsive image">
@@ -208,7 +232,7 @@
     
     
 
-    <h4>Smooth user experience and clear user interface design</h4>
+    <h4 id="ui">Smooth user experience and clear user interface design</h4>
     <a href="https://pr.to/H7OGZT/" target="_blank" class="link">Proto.io Prototype</a>
     <a href="https://nachuan99.github.io/App/" target="_blank" class="link" style="padding-bottom: 20px">Front End Prototype</a>
 
@@ -252,7 +276,7 @@
 
 </div>
 
-<div class="jumbotron jumbotron-fluid life">
+<div class="jumbotron jumbotron-fluid life" id="insight">
   <div class="container">
     <p class="lead">Insights and Moving Forward</p>
     <h1 class="display-5">Foodly is only a start.</h1>
@@ -264,7 +288,7 @@
 <div class="content">
 
   <h4>Not only telling, but also helping people understand.</h4>
-  <p>Through the design process, I realize that a health app is not simply helping the user to record data of meals and exercises, it is an educational process, it is also a process to help them understand their body in a more systematic way. 
+  <p>Through the design process, I realize that a health app is not simply helping the user to record data of meals and exercises, it is an educational process, it is also a process to <strong>help them understand their body in a more systematic way. </strong>
   </p>
 </div>
   <hr>
@@ -273,7 +297,7 @@
   <h4>More to explore. </h4>
   <p>There are many people who live under the sub-health condition and need health advice. Some health issues can be greatly improved by eating wisely, while there are also much more: exercise, sleep, mental health etc. More products and services should and need to be developed, so people can have the knowledge of how to improve health. Changing behavior day by day can make a large impact on the long term. 
   </p>
-  <p>There are still many improments can be maded to the design. I'll continue to revise, learn and grow.</p>
+  <p><strong>There are still many improments can be maded to the design. I'll continue to revise, learn and grow.</strong></p>
 </div>
   <hr>
 <div class="content">
@@ -287,7 +311,7 @@
     <div class="card-body">
       <h4 class="card-title">Journey</h4>
       <p class="card-text">A app designed for travellers to record and share their journey.</p>
-      <p> <small>(Tools: Proto.io, html, css, javascript, jQuery)</small></p>
+      <p> <small>UX . Prototype . Visual System</small></p>
     </div>
     <div class="card-footer">
       <a href="journey.html" class="card-link">Read more</a>
@@ -299,7 +323,7 @@
     <div class="card-body">
       <h4 class="card-title">Fuzhou</h4>
       <p class="card-text">A website designed to preserve the dialect in Fuzhou, China.</p>
-      <p> <small>(Tools: Proto.io, Illustrator)</small></p>
+      <p> <small>Research . UI . Prototype</small></p>
     </div>
     <div class="card-footer">
       <a href="fuzhou.html" class="card-link">Read more</a>
@@ -311,7 +335,7 @@
     <div class="card-body">
       <h4 class="card-title">Split</h4>
       <p class="card-text">A visualized calculator for spliting bills.</p>
-      <p style="padding-top: 22px"> <small>(Tools: Proto.io, html, css, javascript, jQuery)</small></p>
+      <p > <small>Research . Design Thinking . Development</small></p>
     </div>
     <div class="card-footer">
       <a href="split.html" class="card-link">Read more</a>
@@ -325,18 +349,18 @@
     <div class="card-body">
       <h4 class="card-title">Uber</h4>
       <p class="card-text">Redesign UI for multiple destinations.</p>
-      <p style="padding-top: 22px"> <small>(Tools: Proto.io, illustrator, photoshop)</small></p>
+      <p> <small>UX . Design Thinking</small></p>
     </div>
     <div class="card-footer">
       <a href="uber.html" class="card-link">Read more</a>
     </div>
   </div>
+
   <div class="card text-center" style="visibility: hidden;">
     <img class="card-img-top" src="image/split/18.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Split</h4>
       <p class="card-text">A visualized calculator for spliting bills.</p>
-      <p style="padding-top: 22px"> <small>(Tools: Proto.io, html, css, javascript, jQuery)</small></p>
     </div>
     <div class="card-footer">
       <a href="split.html" class="card-link">Read more</a>
@@ -369,6 +393,7 @@
 <footer class="footer">
 
       <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="design.html">Projects</a>
         <a class="nav-link" href="resume.html">Resume</a>
