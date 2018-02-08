@@ -15,9 +15,8 @@
 
 <!-- nav bar -->
 
-<nav class="navbar navbar-expand-md navbar-dark" id="navbar">
-  <!-- Brand -->
-  <a class="navbar-brand" href="index.html">Portfolio of Sherry Li</a> 
+<nav class="navbar navbar-expand-md navbar-dark" id="navbar" style="background-color : #74b9ff;">
+  <!-- Brand --> 
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -34,7 +33,7 @@
         <a class="nav-link" href="about.html" >About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="design.html">Design</a>
+        <a class="nav-link active" href="design.html">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="resume.html">Resume</a>
@@ -49,21 +48,6 @@
 
 
 
-<ul class="nav justify-content-center designNav">
-  <li class="nav-item">
-    <a class="nav-link disabled" href="design.html">UI/UX</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="architecture.html">Architecture</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="interior.html">Interior</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="art.html">Art</a>
-  </li>
-</ul>
-
 
 
 
@@ -74,28 +58,50 @@
 
 
 <div class="card-deck" id="projectCard">
-  <div class="card text-center">
+
+  <ul class="nav justify-content-center designNav" style="margin: 0 auto">
+  <li class="nav-item">
+    <a class="nav-link disabled " href="design.html">UI/UX</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="architecture.html">Architecture</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="interior.html">Interior</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="art.html">Art</a>
+  </li>
+</ul>
+<div class="row">
+
+  <a href="view.html" >
+  <div class="card text-center" style="height: 470px;">
     <img class="card-img-top" src="image/architecture/view/1.png" alt="Card image cap">
     <div class="card-body">
-      <h4 class="card-title">The View From Here</h4>
-      <p class="card-text">Apartment designed for college students to enjoy both urban life and relieve from nature.</p>
+      <h4 class="card-title" style="color: black">The View From Here</h4>
+      <p class="card-text" style="color: black">Apartment designed for college students to enjoy both urban life and relieve from nature.</p>
       <p> <small>(Tools: Rhino, Revit, Illustrator, Photoshop, Laser Cutting, Modeling)</small></p>
     </div>
-    <div class="card-footer">
-      <a href="view.html" class="card-link">Read more</a>
+    <div class="card-footer" style="visibility: hidden;">
+      <a href="chapel.html" class="card-link">Read more</a>
     </div>
   </div>
-  <div class="card text-center">
+  </a>
+
+  <a href="opartments.html" >
+  <div class="card text-center" style="height: 470px;">
     <img class="card-img-top" src="image/architecture/opartments/1.jpg" alt="Card image cap">
     <div class="card-body">
-      <h4 class="card-title">Opartments</h4>
-      <p class="card-text">An project designed for a client in DC for a co-working space. </p>
+      <h4 class="card-title" style="color: black">Opartments</h4>
+      <p class="card-text" style="color: black">An project designed for a client in DC for a co-working space. </p>
       <p> <small>(Tools: Revit, Octane Rendering, Photoshop and Illustrator)</small></p>
     </div>
-    <div class="card-footer">
-      <a href="opartments.html" class="card-link">Read more</a>
+    <div class="card-footer" style="visibility: hidden;">
+      <a href="chapel.html" class="card-link">Read more</a>
     </div>
   </div>
+  </a>
   <div class="card text-center" style="visibility: hidden;">
     <img class="card-img-top" src="image/architecture/river/2.jpg" alt="Card image cap">
     <div class="card-body">
@@ -107,32 +113,20 @@
     </div>
   </div>
 </div>
-
+</div>
 
 
 <!-- footer -->
-    <footer class="footer">
-      <div class="row">
+<footer class="footer">
 
-        <div class="col-sm-4">
-          <p>Categories</p>
-          <a href="architecture.html">Architecture</a>
-          <a href="art.html">Art</a>
-          <a href="interior.html">Interior Design</a>
-          <a href="design.html">User Interface</a>
-        </div>
+      <nav class="nav">
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="design.html">Projects</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
 
-        <div class="col-sm-4">
-          <p>Social Media</p>
-          <a class="p" href="https://www.linkedin.com/in/sherry-li-062447b2">Linkedin</a>
-        </div>
 
-        <div class="col-sm-4">
-          <p>Contact Info</p>
-          <p class="email">nachuan@wustl.edu</p>
-        </div>
-        
-      </div>
     </footer>
 
 

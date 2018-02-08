@@ -1,4 +1,6 @@
-
+a:hover {
+	text-decoration: none !important;
+}
 /*nav bar*/
 #navbar .navbar-brand {
 	font-style: italic;
@@ -6,8 +8,19 @@
 
 #navbar {
 	background: #757575;
-	box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+/*	box-shadow: 4px 4px 8px rgba(0,0,0,0.2);*/
 	z-index: 10;
+}
+
+#fix {
+	height: 250px;
+	background-image: url("../image/about/2.png");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.brightcolor {
+	background-color: #74b9ff;
 }
 
 /*slider*/
@@ -95,32 +108,21 @@ a.more:hover{
 
 /*footer*/
 footer {
-	padding: 0 100px;
-	text-align: center;
-	background: #757575;
+	border-top: 2px solid white;
+	background: #F5F5F5;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
-footer .col-sm-4 {
-	padding: 25px 0;
+footer nav {
+	margin: 0 auto;
+	width: 350px;
 }
 
-footer p {
-	color: white;
-}
 
-footer a {
-	display: block;
-	font-size: 12px;
-	color: #E0E0E0;
-}
 
-a:hover {
-	text-decoration: none;
-}
 
-footer .email {
-	font-size: 12px;
-}
+
 
 /*resume*/
 
