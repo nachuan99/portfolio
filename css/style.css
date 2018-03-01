@@ -2,6 +2,7 @@ a:hover {
 	text-decoration: none !important;
 }
 /*nav bar*/
+body {overflow-x: hidden;}
 
 #navbar .navbar-brand {
 	font-style: italic;
