@@ -257,18 +257,21 @@ text-shadow: 1px 1px 2px #BDBDBD;
 	background-position: center;
 	background-size: cover;
 	height: 500px;
+	text-shadow: 1px 1px 4px grey;
 }
 
 #splitIntro .jumbotron {
 	background-image: url("../image/split/2.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 }
 
 #uberIntro .jumbotron {
 	background-image: url("../image/uber/1.png");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
@@ -276,48 +279,56 @@ text-shadow: 1px 1px 2px #BDBDBD;
 #viewIntro .jumbotron {
 	background-image: url("../image/architecture/view/1.png");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
+	color: white;
 }
 
 #musicIntro .jumbotron {
 	background-image: url("../image/architecture/river/2.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
 #greenIntro .jumbotron {
 	background-image: url("../image/architecture/greenhouse/3.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
+	color: white;
 }
 
 #chapelIntro .jumbotron {
 	background-image: url("../image/architecture/chapel/1.jpg");
 	background-position: top;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
 #observatoryIntro .jumbotron {
 	background-image: url("../image/architecture/observatory/1.jpg");
 	background-position: center;
-	background-size: 100%;
-	color: black;
-	text-shadow: 2px 2px 4px #BDBDBD;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
+	color: white;
 }
 
 #buildingIntro .jumbotron {
 	background-image: url("../image/architecture/building/6.jpg");
 	background-position: center;
-	background-size: 50%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
 #environmentIntro .jumbotron {
 	background-image: url("../image/architecture/environment/3.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
@@ -326,49 +337,58 @@ text-shadow: 1px 1px 2px #BDBDBD;
 	background-position: center;
 	background-size: 100%;
 	color: black;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 }
 
 #paintingIntro .jumbotron {
 	background-image: url("../image/art/painting/3.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
 #drawingIntro .jumbotron {
 	background-image: url("../image/art/drawing/7.jpg");
 	background-position: bottom;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
 }
 
 #photoIntro .jumbotron {
 	background-image: url("../image/art/photography/4.jpg");
 	background-position: center;
-	background-size: 100%;
-	color: grey;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
+	color: white;
 }
 
 #flyIntro .jumbotron {
 	background-image: url("../image/art/fly/1.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 	color: white;
-	text-shadow: 2px 2px 4px #BDBDBD;
 }
 
 #fuzhouIntro .jumbotron {
 	background-image: url("../image/fuzhou/1.jpg");
 	background-position: center;
-	background-size: 100%;
-	color: grey;
-	text-shadow: 2px 2px 4px #BDBDBD;
+	color: white;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
 }
+
+
 
 #lifeIntro .jumbotron {
 	background-image: url("../image/life/44.jpg");
-	background-position: center;
-	background-size: 100%;
+	background-position: left;
+	background-size: cover;
+	text-shadow: 1px 1px 4px grey;
+	color: white;
 }
 
 #splitIntro .jumbotron h1,
