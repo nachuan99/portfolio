@@ -23,7 +23,7 @@ body {overflow-x: hidden;}
 }
 
 #navbarp li a {
-	text-shadow: grey 1px 1px 3px;
+	
 	color: white;
 }
 
@@ -493,3 +493,12 @@ text-shadow: 1px 1px 2px #BDBDBD;
 small {
 	color: grey;
 }
+
+
+
+@media screen and (max-width:800px) {
+	#selfIntroLarge {
+		display: none;
+	}
+}
+
