@@ -82,7 +82,7 @@ body {overflow-x: hidden;}
 	padding: 70px;
 }
 #selfIntro {
-	padding: 0 10%;
+	padding: 0 5%;
 	position: fixed;
 	z-index: -1;
 }
@@ -255,7 +255,7 @@ text-shadow: 1px 1px 2px #BDBDBD;
 #journeyIntro .jumbotron {
 	background-image: url("../image/journey/45.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	height: 500px;
 }
 
@@ -502,3 +502,22 @@ small {
 	}
 }
 
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../image/other/4.png");
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+.navbar-dark .navbar-nav {
+    padding-top: 10px;
+}
+
+.navbar-dark .navbar-nav li {
+    height: 45px;
+}
