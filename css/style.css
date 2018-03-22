@@ -112,16 +112,16 @@ body {overflow-x: hidden;}
 /*project card*/
 
 
-.projectCategory {
-	position: absolute; 
-	margin-left: 9%; 
-	margin-top: 30px; 
+.projectCategory { 
 	color: #9E9E9E;
+	text-align: center;
+	width: 100%;
+	background-color: white;
 }
 
 #projectCard {
 	padding: 100px 10% 50px 10%;
-	background: #F5F5F5;
+	background: white;
 	border-top: 2px solid white;
 }
 
@@ -546,3 +546,12 @@ small {
     height: 45px;
 }
 
+.rowproject {
+	opacity: 0.5;
+	-webkit-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+.rowproject:hover {
+	opacity: 1;
+}
