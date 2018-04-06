@@ -27,8 +27,41 @@ body {overflow-x: hidden;}
 	color: white;
 }
 
+.primarycolor {
+background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8379ea, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8379ea, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#selfIntro .jumbotron {
+background-color: transparent;
 
 
+}
+
+#aboutme {
+	height: 500px;
+	text-align: center;
+	background: white;  
+	padding-top: 200px;
+	color: #808080;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.blackbutton {
+	 background-color: white;
+	 color: grey;
+	 border: 1px black solid;
+}
+
+
+.blackbutton:hover {
+	 background-color: grey;
+	 color: white;
+	 border: 1px grey solid;
+}
 
 .brightcolor {
 	background-color: #74b9ff;
@@ -96,9 +129,7 @@ body {overflow-x: hidden;}
 	background-color: white;
 }
 
-#selfIntro .jumbotron {
-	background: white;
-}
+
 
 
 #other {
@@ -560,4 +591,21 @@ small {
 
 .rowproject:hover {
 	opacity: 1;
+}
+
+/* Center the loader */
+#loader img{
+  z-index: 1;
+  width: 350px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#myDiv {
+  display: none;
+  text-align: center;
 }
