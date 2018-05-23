@@ -20,7 +20,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
-  <body>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"><img src="image/loader/1.gif"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
 
 
 <!-- nav bar -->
@@ -168,10 +172,11 @@
   </div>
   </a>
 
+  <a href="landmark.html" >
   <div class="card text-center">
-    <img class="card-img-top" src="image/landmark/2.jpg" alt="Card image cap" style="opacity: 0.5">
+    <img class="card-img-top" src="image/landmark/2.jpg" alt="Card image cap">
     <div class="card-body">
-      <h4 class="card-title" style="color: black; opacity: 0.4">Coming Soon</h4>
+      <h4 class="card-title" style="color: black; opacity: 0.4">Landmarks</h4>
       <p class="card-text" style="color: black; opacity: 0.4">A website for Landmarks Association of St. Louis</p>
       <p> <small ><i class="fas fa-star" style="color: #74b9ff; margin-right: 5px"></i> <span style="color: #74b9ff"> Working with engineers </span>. Hackathon . Web Design</small></p>
     </div>
@@ -179,6 +184,7 @@
       <a href="journey.html" class="card-link">Read more</a>
     </div>
   </div>
+  </a>
 </div>
 </div>
 
@@ -191,6 +197,23 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </nav>
     </footer> -->
+
+
+<script>
+
+window.onload = function(){ 
+
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block"; }
+
+</script>
+
+
+
+
+
+
+
 
 
     <!-- Optional JavaScript -->

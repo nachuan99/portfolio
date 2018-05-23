@@ -20,7 +20,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
-  <body>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"><img src="image/loader/1.gif"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
 
 
 <!-- nav bar -->
@@ -562,6 +566,23 @@
 
 
     </footer>
+
+
+
+<script>
+
+window.onload = function(){ 
+
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block"; }
+
+</script>
+
+
+
+
+
+
 
 
 
